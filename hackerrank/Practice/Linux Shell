@@ -1,0 +1,27 @@
+1.Let's Echo
+  
+    echo 'HELLO'
+
+2.A Personalized Echo
+  
+    read name
+    echo 'Welcome' $name
+    
+   
+3.The World of Numbers
+
+
+    read x
+    read y
+
+    echo $(( $x + $y))
+    echo $(( $x - $y))
+    echo $(( $x * $y))
+    echo $(( $x / $y))
+
+
+4.Looping with Numbers
+
+    for i in {1..50}; do echo $i; done
+
+    
