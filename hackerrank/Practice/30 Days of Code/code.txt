@@ -1,0 +1,16 @@
+Let's Review
+
+TestCase = int(input()) # No of test case 
+
+for i in range(TestCase):
+    String = input()  # take string input
+
+    first  =String[0::2] # every even index store in the 'first'
+    last = String[1::2] # odd index store in the 'second'
+
+    output = first+' '+last 
+    print(output)
+
+
+------------------------------------------------------------------------------------
+
